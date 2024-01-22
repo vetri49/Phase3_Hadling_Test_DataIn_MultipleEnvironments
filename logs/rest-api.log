@@ -34,3 +34,8 @@
 2024-01-22 18:00:10 INFO  LoginRequestTest:18 Start :: Test on Login request with Rest assured
 2024-01-22 18:00:12 INFO  LoginRequestTest:31 Response Object ::{"token":"QpwL5tke4Pnpja7X4"}
 2024-01-22 18:00:12 INFO  LoginRequestTest:32 End :: Test on Login request with Rest assured
+2024-01-22 18:25:01 INFO  RegisterRequestTest:20 Start :: Test Registration  with rest assured
+2024-01-22 18:25:01 INFO  RegisterRequestTest:21 POST :: URL https://reqres.in/api/register
+2024-01-22 18:25:01 INFO  RegisterRequestTest:23 Request Object :: User [email=eve.holt@reqres.in, password=pistol]
+2024-01-22 18:25:04 INFO  RegisterRequestTest:39 Response Object:: {"id":4,"token":"QpwL5tke4Pnpja7X4"}
+2024-01-22 18:25:04 INFO  RegisterRequestTest:40 End :: Test Registration  with rest assured

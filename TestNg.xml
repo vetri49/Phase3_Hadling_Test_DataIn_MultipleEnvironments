@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="RestAssuredTest">
+<Listeners>
+          <Listener class-name="org.uncommons.reportng.HTMLReporter" />
+          <Listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+</Listeners>
+<test name="REST APIs">
+   <classes>
+      <class name="com.simplilearn.restassuredtest.GetUserRequestTest"></class>
+      <class name="com.simplilearn.restassuredtest.RegisterRequestTest"></class>
+      <class name="com.simplilearn.restassuredtest.LoginRequestTest"></class>
+   </classes>
+</test>
+</suite>
